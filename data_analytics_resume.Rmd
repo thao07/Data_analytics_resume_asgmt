@@ -1,0 +1,137 @@
+---
+title: "Thao Hoang"
+author: Thao Hoang
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # Thanks to Eric R. Scott for this tip! 
+    self_contained: false
+knit: pagedown::chrome_print
+---
+
+Aside
+================================================================================
+
+
+![Data](data_icon.png){width=30%}
+<!-- ![Data](`r here::here("data_icon.png")`) -->
+
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i>thao.hoang@tufts.edu
+- <i class="fa fa-github"></i> [github.com/thao07/](https://github.com/kylemonahan/)
+- <i class="fa fa-phone"></i> +1 123-456-7891
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Experienced in running multivariate regression. 
+
+- Performing **data analysis**, with a focus on engineering models
+
+- Experienced in **data communication** and client relations
+
+- Teamwork
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+<!--This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).-->
+
+Last updated on 12/6/2021.
+
+
+
+Main
+================================================================================
+
+Thao Hoang {#title}
+--------------------------------------------------------------------------------
+
+### Data Analytics Student
+
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+### Tufts University
+
+MS Candidate in Data Analytics
+
+Medford, MA
+
+2021--Current
+
+
+### Undergraduate University
+
+B.A. in Finance
+
+Troy, NY 
+
+2008--2012
+
+
+
+
+
+
+Selected Project Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+### DATA-200 Foundations of Data Analyics 
+
+Tufts University
+
+Medford, MA
+
+Fall 2021
+
+<!--::: concise-->
+- Deploy a project which predictes likelihood of energy consumption and carbon emissionns with 89% accuracy on data from the U.S. Energy Information Administration from 1960 to 2019
+- Train the model using logistic regression.
+<!--:::-->
+
+
+
+
+### DATA 201A & DATA201B: Introduction to Python and Machine Learning
+
+Tufts University
+
+Medford, MA
+
+Fall 2021
+
+- Implement the machine learning algorithms in Python programming  language. 
+- Deploy Principal Component Analysis, Clustering, Decision Trees and Regression Models
+- Assess whether the assumptions of a particular method are met, as well as 
+its limitations. 
+
+
+Selected Presentations {data-icon=comment-alt}
+--------------------------------------------------------------------------------
+### DATA-200 Final Project
+Present a model for carbon emissions and energy projection across the states, and summarize main results and assumptions of the model to my cohort. 
+
+Medford, MA
+
+Fall 2021
+
+### DATA-201A & DATA-201B Final Projects
+Presente a model for human activity recognition Using smartphones data set, and summarize main results and assumptions of the model to my cohort. 
+
+Medford, MA
+
+Fall 2021
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
